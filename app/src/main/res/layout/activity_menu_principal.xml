@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="non.vivriapp.MenuPrincipal"
+        android:background="#2b1073">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:contentDescription="@string/menu1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:id="@+id/btn_compras"
+                android:src="@drawable/comprasicono"
+                android:layout_weight="0.5"
+                android:onClick="paisCompras"
+                android:background="#2b1073" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:contentDescription="@string/menu2"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:id="@+id/btn_inscribete"
+                android:src="@drawable/insribeteicono"
+                android:layout_weight="0.5"
+                android:onClick="paisInscribete"
+                android:background="#2b1073" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:contentDescription="@string/menu3"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:id="@+id/btn_como"
+                android:src="@drawable/prepararicono"
+                android:layout_weight="1"
+                android:background="#2b1073" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:contentDescription="@string/menu4"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:id="@+id/btn_recetas"
+                android:src="@drawable/recetasicono"
+                android:layout_weight="1"
+                android:background="#2b1073" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:contentDescription="@string/menu5"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:id="@+id/btn_testimonios"
+                android:src="@drawable/testimoniosicono"
+                android:layout_weight="0.5"
+                android:background="#2b1073" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:contentDescription="@string/menu6"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:id="@+id/btn_videos"
+                android:src="@drawable/videosicono"
+                android:layout_weight="0.5"
+                android:background="#2b1073" />
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:contentDescription="@string/menu7"
+            android:adjustViewBounds="true"
+            android:scaleType="center"
+            android:id="@+id/btn_reto"
+            android:src="@drawable/retoicono"
+            android:layout_weight="1" />
+    </LinearLayout>
+</ScrollView>

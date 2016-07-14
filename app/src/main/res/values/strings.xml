@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Siempre con Vivri</string>
+    <string name="menu1">Compras</string>
+    <string name="menu2">Inscribete</string>
+    <string name="menu3">Como se Prepara</string>
+    <string name="menu4">Recetas</string>
+    <string name="menu5">Testimonios</string>
+    <string name="menu6">Videos</string>
+    <string name="menu7">Reto Vivri</string>
+
+</resources>
