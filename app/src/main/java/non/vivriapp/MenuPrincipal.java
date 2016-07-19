@@ -12,12 +12,14 @@ import android.widget.ImageButton;
 
 public class MenuPrincipal extends AppCompatActivity {
     ImageButton testimonios;
+    ImageButton comoPreparar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_principal);
         testimonios = (ImageButton)findViewById(R.id.btn_testimonios);
+        comoPreparar = (ImageButton)findViewById(R.id.btn_como);
         testimonios.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -25,6 +27,7 @@ public class MenuPrincipal extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
 
     public void paisCompras(View view){
@@ -69,5 +72,10 @@ public class MenuPrincipal extends AppCompatActivity {
                 return true;
             }
         });
+    }
+
+    public void abrirComo(View view){
+        Intent intent = new Intent(this, ComoPreparar.class);
+        startActivity(intent);
     }
 }

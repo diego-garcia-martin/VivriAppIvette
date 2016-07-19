@@ -33,7 +33,7 @@
                 android:src="@drawable/comprasicono"
                 android:layout_weight="0.5"
                 android:onClick="paisCompras"
-                android:background="#2b1073" />
+                android:background="@drawable/corners" />
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -49,7 +49,7 @@
                 android:src="@drawable/insribeteicono"
                 android:layout_weight="0.5"
                 android:onClick="paisInscribete"
-                android:background="#2b1073" />
+                android:background="@drawable/corners" />
         </LinearLayout>
 
         <LinearLayout
@@ -70,7 +70,8 @@
                 android:id="@+id/btn_como"
                 android:src="@drawable/prepararicono"
                 android:layout_weight="1"
-                android:background="#2b1073" />
+                android:background="@drawable/corners"
+                android:onClick="abrirComo"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -85,7 +86,7 @@
                 android:id="@+id/btn_recetas"
                 android:src="@drawable/recetasicono"
                 android:layout_weight="1"
-                android:background="#2b1073" />
+                android:background="@drawable/corners" />
         </LinearLayout>
 
         <LinearLayout
@@ -95,7 +96,7 @@
 
             <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="fill_parent"
                 android:paddingTop="5dp"
                 android:paddingBottom="5dp"
                 android:paddingLeft="5dp"
@@ -104,9 +105,9 @@
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
                 android:id="@+id/btn_testimonios"
-                android:src="@drawable/testimoniosicono"
-                android:layout_weight="0.5"
-                android:background="#2b1073" />
+                android:src="@drawable/testimonioicono"
+                android:layout_weight="1"
+                android:background="@drawable/corners" />
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -119,9 +120,9 @@
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
                 android:id="@+id/btn_videos"
-                android:src="@drawable/videosicono"
-                android:layout_weight="0.5"
-                android:background="#2b1073" />
+                android:src="@drawable/videoicono"
+                android:layout_weight="1"
+                android:background="@drawable/corners" />
         </LinearLayout>
 
         <ImageButton

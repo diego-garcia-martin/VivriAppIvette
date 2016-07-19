@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2b1073">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="non.vivriapp.ComoPreparar">
+
+        <ImageView
+            android:contentDescription="Asi se prepara"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/preparado"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/comopreparar"/>
+
+        <TextView
+            android:contentDescription="@string/video_como_preparar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="¡Si tienes preguntas, mira estos  videos!"
+            android:paddingTop="16dp"
+            android:id="@+id/textView"
+            android:textSize="20sp"
+            android:textIsSelectable="false"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:contentDescription="@string/video_como_preparar"
+                android:layout_width="214dp"
+                android:layout_height="120dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:id="@+id/btn_videoComo"
+                android:src="@drawable/youtubevivri2"
+                android:background="#2b1073"
+                android:onClick="videoComo"/>
+
+            <TextView
+                android:contentDescription="@string/video_como_preparar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:text="Cómo preparar tu Shake Me!"
+                android:id="@+id/txt_videoComo"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:onClick="videoComo"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="32dp">
+
+            <ImageButton
+                android:contentDescription="@string/video_preguntas_frecuentes"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:id="@+id/btn_videoPreguntas"
+                android:src="@drawable/youtubevivri1"
+                android:background="#2b1073"
+                android:onClick="videoPreguntas"/>
+
+            <TextView
+                android:contentDescription="@string/video_preguntas_frecuentes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:text="Preguntas Frecuentes"
+                android:id="@+id/txt_videoPreguntas"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:onClick="videoPreguntas"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
