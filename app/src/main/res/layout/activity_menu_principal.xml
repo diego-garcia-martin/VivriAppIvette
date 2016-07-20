@@ -33,7 +33,7 @@
                 android:src="@drawable/comprasicono"
                 android:layout_weight="0.5"
                 android:onClick="paisCompras"
-                android:background="@drawable/corners" />
+                android:background="#2b1073" />
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -49,7 +49,7 @@
                 android:src="@drawable/insribeteicono"
                 android:layout_weight="0.5"
                 android:onClick="paisInscribete"
-                android:background="@drawable/corners" />
+                android:background="#2b1073" />
         </LinearLayout>
 
         <LinearLayout
@@ -70,7 +70,7 @@
                 android:id="@+id/btn_como"
                 android:src="@drawable/prepararicono"
                 android:layout_weight="1"
-                android:background="@drawable/corners"
+                android:background="#2b1073"
                 android:onClick="abrirComo"/>
 
             <ImageButton
@@ -86,7 +86,7 @@
                 android:id="@+id/btn_recetas"
                 android:src="@drawable/recetasicono"
                 android:layout_weight="1"
-                android:background="@drawable/corners" />
+                android:background="#2b1073" />
         </LinearLayout>
 
         <LinearLayout
@@ -107,7 +107,7 @@
                 android:id="@+id/btn_testimonios"
                 android:src="@drawable/testimonioicono"
                 android:layout_weight="1"
-                android:background="@drawable/corners" />
+                android:background="#2b1073" />
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -122,7 +122,7 @@
                 android:id="@+id/btn_videos"
                 android:src="@drawable/videoicono"
                 android:layout_weight="1"
-                android:background="@drawable/corners" />
+                android:background="#2b1073" />
         </LinearLayout>
 
         <ImageButton
