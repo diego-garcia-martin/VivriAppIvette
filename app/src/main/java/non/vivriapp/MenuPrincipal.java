@@ -11,8 +11,8 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class MenuPrincipal extends AppCompatActivity {
-    ImageButton testimonios;
-    ImageButton comoPreparar;
+    private ImageButton testimonios;
+    private ImageButton comoPreparar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
