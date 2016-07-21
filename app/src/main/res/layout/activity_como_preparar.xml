@@ -39,7 +39,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp">
 
             <ImageButton
                 android:contentDescription="@string/video_como_preparar"
@@ -100,5 +101,46 @@
                 android:layout_weight="2"
                 android:onClick="videoPreguntas"/>
         </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="¡O puedes ver las descripciones de nuestros productos!"
+            android:paddingTop="16dp"
+            android:id="@+id/textView2"
+            android:textSize="20sp"
+            android:textIsSelectable="false"
+            android:textColor="#ffffff"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_shake"
+            android:src="@drawable/shekeme"
+            android:adjustViewBounds="true"
+            android:background="#2b1073"
+            android:scaleType="fitCenter"
+            android:paddingTop="16dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_power"
+            android:src="@drawable/powerme"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="#2b1073"
+            android:paddingTop="16dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_cleanse"
+            android:src="@drawable/cleanseme"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="#2b1073"
+            android:paddingTop="16dp"/>
     </LinearLayout>
 </ScrollView>
