@@ -15,13 +15,37 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ComoPreparar"
+        <activity
+            android:name=".ComoPreparar"
             android:label="@string/title_Como_Preparar"
             android:parentActivityName=".MenuPrincipal">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MenuPrincipal"/>
+                android:value=".MenuPrincipal" />
         </activity>
+        <activity
+            android:name=".Videos_activity"
+            android:label="@string/title_videos_activity"
+            android:parentActivityName=".MenuPrincipal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuPrincipal" />
+        </activity>
+        <activity
+            android:name=".RecetasActivity"
+            android:label="@string/title_Recetas"
+            android:parentActivityName=".MenuPrincipal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuPrincipal" />
+        </activity>
+        <activity android:name=".Reto_Vivri"
+            android:label="@string/reto_vivri"
+            android:parentActivityName=".MenuPrincipal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuPrincipal" />
+            </activity>
     </application>
 
 </manifest>

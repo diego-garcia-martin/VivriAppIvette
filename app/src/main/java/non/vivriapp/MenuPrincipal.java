@@ -78,4 +78,19 @@ public class MenuPrincipal extends AppCompatActivity {
         Intent intent = new Intent(this, ComoPreparar.class);
         startActivity(intent);
     }
+
+    public void open_video(View view){
+        Intent intent = new Intent(this, Videos_activity.class);
+        startActivity(intent);
+    }
+
+    public void abrir_recetas(View view){
+        Intent intent = new Intent (this, RecetasActivity.class);
+        startActivity(intent);
+    }
+
+    public void abrir_reto(View view){
+        Intent intent = new Intent(this, Reto_Vivri.class);
+        startActivity(intent);
+    }
 }
