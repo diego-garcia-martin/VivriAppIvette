@@ -1,14 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
-    android:background="@color/colorPrimary"
     tools:context="non.vivriapp.RecetasActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:onClick="abrirEnsaladas"
+        android:textSize="20sp"
+        android:background="@color/colorPrimary"
+        android:text="Ensaladas"
+        android:paddingTop="16dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:onClick="abrirPollo"
+        android:paddingTop="16dp"
+        android:textSize="20sp"
+        android:background="@color/colorPrimary"
+        android:text="Pollo"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:paddingTop="16dp"
+        android:textSize="20sp"
+        android:onClick="abrirRes"
+        android:background="@color/colorPrimary"
+        android:text="Res"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:onClick="abrirCerdo"
+        android:textSize="20sp"
+        android:paddingTop="16dp"
+        android:background="@color/colorPrimary"
+        android:text="Cerdo"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:onClick="abrirPastas"
+        android:textSize="20sp"
+        android:paddingTop="16dp"
+        android:background="@color/colorPrimary"
+        android:text="Pastas"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:paddingTop="16dp"
+        android:textSize="20sp"
+        android:onClick="abrirPescados"
+        android:background="@color/colorPrimary"
+        android:text="Pescados y Mariscos"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:onClick="abrirBocadillos"
+        android:paddingTop="16dp"
+        android:textSize="20sp"
+        android:background="@color/colorPrimary"
+        android:text="Bocadillos"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:onClick="abrirFace"
+        android:text="Visita nuestra pagina de facebook para más recetas"/>
+
 
 </LinearLayout>
