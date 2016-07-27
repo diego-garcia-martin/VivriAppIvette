@@ -17,6 +17,16 @@
     <string name="info_shake">Shake Me!™ contiene 45 nutrientes esenciales, es un alimento en polvo de acuerdo a los estándares internacionales más altos. Está repleto de proteínas, vitaminas, extractos vegetales y otros ingredientes de primera calidad.</string>
     <string name="title_Recetas"> Recetas</string>
 
+    <string-array name="tipos_recetas">
+        <item>Ensaladas</item>
+        <item>Pollo</item>
+        <item>Res</item>
+        <item>Cerdoa</item>
+        <item>Pescados/MAriscos</item>
+        <item>Pastas</item>
+        <item>Bocadillos</item>
+    </string-array>
+
     <string-array name="nombres_ensaladas">
         <item>Ensalada de Coliflor</item>
         <item>Ensalada de Vegetales Horneados</item>
@@ -30,6 +40,23 @@
         <item>Ensalada de Espinaca y Arúgula</item>
         <item>Ensalada de Lentejas</item>
         <item>Ensalada de Hongos</item>
+    </string-array>
+
+    <string-array name="nombres_pollo">
+        <item>Arroz integral con pollo y verduras</item>
+        <item>Arroz integral con pollo</item>
+        <item>Rollo de pollo con espinacas</item>
+        <item>Pechuga de pollo al limon</item>
+        <item>Brochetas de pollo</item>
+        <item>Pollo en escabeche de limon</item>
+        <item>Brochetas de Pollo y piña</item>
+        <item>Pollo adobado</item>
+        <item>Ensalada de pollo con durazno</item>
+        <item>Ensalada de pollo al chipotle</item>
+        <item>Pollo al limon con arroz de coliflor</item>
+        <item>Pollo con pimientos</item>
+        <item>Fajitas de pollo estilo oriental</item>
+        <item>Pechuga de pollo con arroz integral</item>
     </string-array>
 
 </resources>
