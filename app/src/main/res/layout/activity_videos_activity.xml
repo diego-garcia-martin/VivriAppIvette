@@ -15,5 +15,626 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="non.vivriapp.Videos_activity">
 
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video01"
+                android:background="#2b1073"
+                android:onClick="open_video01"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIVRI"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView6"
+                android:onClick="open_video01"/>/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video02"
+                android:background="#2b1073"
+                android:onClick="open_video02"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIVRI"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView7"
+                android:onClick="open_video02"/>/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video03"
+                android:background="#2b1073"
+                android:onClick="open_video03"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OMEGA ME VIVRI con Diana Valtierra"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView8"
+                android:onClick="open_video03"/>/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video04"
+                android:background="#2b1073"
+                android:onClick="open_video04"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ELIGE LA OPCION MAS SALUDABLE DE VIVRI COn Eugenia Franco"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView9"
+                android:onClick="open_video04"/>/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video05"
+                android:background="#2b1073"
+                android:onClick="open_video05"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Que es VIVRI"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView10"
+                android:onClick="open_video05"/>/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video06"
+                android:background="#2b1073"
+                android:onClick="open_video06"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIVRI siempre con Vivri !"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView11"
+                android:onClick="open_video06"/>/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video07"
+                android:background="#2b1073"
+                android:onClick="open_video07"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="time change de Luis Perches video de superacion personal"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView12"
+                android:onClick="open_video07"/>/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video08"
+                android:background="#2b1073"
+                android:onClick="open_video08"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIVRI world con miriam"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView13"
+                android:onClick="open_video08"/>/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video09"
+                android:background="#2b1073"
+                android:onClick="open_video09"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TUTORIAL COMO COMPRAR EN LINEA COMO CLIENTE DE VIVRI"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView14"
+                android:onClick="open_video09"/>/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video10"
+                android:background="#2b1073"
+                android:onClick="open_video10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PLATICA DR MUNCHARRAZ VIVRI"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView15"
+                android:onClick="open_video10"/>/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video11"
+                android:background="#2b1073"
+                android:onClick="open_video11"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIVRI INVERSIÓN A CORTO PLAZO"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView16"
+                android:onClick="open_video11"/>/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video12"
+                android:background="#2b1073"
+                android:onClick="open_video12"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INVITACIÓN A NEGOCIO VIVRI, CON SANTINA FRANCO"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView17"
+                android:onClick="open_video12"/>/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video13"
+                android:background="#2b1073"
+                android:onClick="open_video13"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAPACITACIÓN DE PLAN DE COMPENSACIÓN DE VIVRI"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView18"
+                android:onClick="open_video13"/>/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video14"
+                android:background="#2b1073"
+                android:onClick="open_video14"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PLAN DE COMPENSACION CON SANTINA FRANCO"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView19"
+                android:onClick="open_video14"/>/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video15"
+                android:background="#2b1073"
+                android:onClick="open_video15"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIVRI PARA LA MUJER EMBARAZADA, LACTANDO, MENOPAUSIA, NIÑAS ADOLESENTES"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView20"
+                android:onClick="open_video15"/>/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video16"
+                android:background="#2b1073"
+                android:onClick="open_video16"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONOCE EL INTERIOR DE VIVRI"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView21"
+                android:onClick="open_video16"/>/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video17"
+                android:background="#2b1073"
+                android:onClick="open_video17"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QUIEN ES ELY OROZCO VIVRI"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView22"
+                android:onClick="open_video17"/>/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video18"
+                android:background="#2b1073"
+                android:onClick="open_video18"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Encuentra tu Pasión- Daniel CEO.mov"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView23"
+                android:onClick="open_video18"/>/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video19"
+                android:background="#2b1073"
+                android:onClick="open_video19"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nutrición VIVRI™.mov"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView24"
+                android:onClick="open_video19"/>/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video20"
+                android:background="#2b1073"
+                android:onClick="open_video20"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plática del RETO VIVRI"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView25"
+                android:onClick="open_video20"/>/>
+        </LinearLayout>
+
     </LinearLayout>
 </ScrollView>
