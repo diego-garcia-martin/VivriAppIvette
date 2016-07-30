@@ -1,19 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary">
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/layout_reto"
+    tools:context="non.vivriapp.Reto_Vivri">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="¿Qué es el Reto VIVRI?"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="16dp"
+        android:text="@string/descripcionReto"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context="non.vivriapp.Reto_Vivri">
+        android:orientation="horizontal"
+        android:paddingTop="16dp">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:onClick="video_Reto"
+            android:scaleType="fitCenter"
+            android:src="@drawable/videoreto" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:onClick="video_Reto"
+            android:paddingLeft="16dp"
+            android:paddingStart="16dp"
+            android:text="CONOCE EL RETO VIVRI Ely Orozco"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
 
     </LinearLayout>
-</ScrollView>
+
+    <Button
+        android:id="@+id/btn_tipsReto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="TIPS DE INICIO"
+        android:onClick="abrirTips"/>
+
+    <Button
+        android:id="@+id/btn_platoReto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="MI PLATO VIVRI"
+        android:onClick="abrirPlato"/>
+
+    <Button
+        android:id="@+id/btn_alimentosReto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="LISTA DE ALIMENTOS SUGERIDOS"
+        android:onClick="abrirAlimentos"/>
+</LinearLayout>

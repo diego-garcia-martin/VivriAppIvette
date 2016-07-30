@@ -47,12 +47,20 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MenuPrincipal" />
         </activity>
-        <activity android:name=".Recetas02"
+        <activity
+            android:name=".Recetas02"
             android:label="@string/reto_vivri"
             android:parentActivityName=".RecetasActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MenuPrincipal" />
+        </activity>
+        <activity android:name=".Reto2"
+            android:label="@string/reto_vivri"
+            android:parentActivityName=".Reto_Vivri">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Reto_Vivri" />
         </activity>
     </application>
 

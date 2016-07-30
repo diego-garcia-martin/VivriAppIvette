@@ -44,7 +44,7 @@
                 android:textColor="#ffffff"
                 android:layout_gravity="center_vertical"
                 android:id="@+id/textView6"
-                android:onClick="open_video01"/>/>
+                android:onClick="open_video01"/>
         </LinearLayout>
         <LinearLayout
             android:paddingTop="16dp"
@@ -635,6 +635,13 @@
                 android:id="@+id/textView25"
                 android:onClick="open_video20"/>/>
         </LinearLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="No olvides inscribirte en el canal!"
+            android:id="@+id/button"
+            android:onClick="abrir_canal"/>
 
     </LinearLayout>
 </ScrollView>

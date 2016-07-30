@@ -113,4 +113,9 @@ public class Videos_activity extends AppCompatActivity {
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=WJ0pRQbP8r0"));
         startActivity(intent);
     }
+
+    public void abrir_canal(View view){
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/channel/UCGiBGRsFPFTro4QnpFT-KQg"));
+        startActivity(intent);
+    }
 }
