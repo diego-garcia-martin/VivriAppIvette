@@ -29,25 +29,131 @@
         <item>Pollo</item>
         <item>Res</item>
         <item>Cerdo</item>
+        <item>Pescado / Mariscos</item>
         <item>Pastas</item>
         <item>Arroz integral</item>
-        <item>Pescado / Mariscos</item>
+        <item>Sopas</item>
         <item>Bocadillos</item>
     </string-array>
 
     <string-array name="nombres_ensaladas">
         <item>Ensalada de Coliflor</item>
-        <item>Ensalada de Vegetales Horneados</item>
         <item>Ensalada de Vegetales</item>
         <item>Ensalada Mixta</item>
         <item>Ensalada de Espinaca</item>
         <item>Ensalada Fresca</item>
         <item>Ensalada de Ejotes</item>
         <item>Ensalada de Vegetales Asados</item>
-        <item>Ensalada de Espinaca con Pera</item>
         <item>Ensalada de Espinaca y Arúgula</item>
         <item>Ensalada de Lentejas</item>
         <item>Ensalada de Hongos</item>
+    </string-array>
+
+    <string-array name="nombres_pollo">
+        <item>Rollo de pollo con espinaca</item>
+        <item>Pechuga de pollo al limón</item>
+        <item>Brochetas de pollo</item>
+        <item>Pollo en escabeche de limón</item>
+        <item>Brochetas de pollo y piña</item>
+        <item>Pollo adobado</item>
+        <item>Pollo al limón con arroz de coliflor</item>
+        <item>Pollo con pimientos</item>
+        <item>Fajitas de pollo estilo oriental</item>
+        <item>Pechuga de pollo con arroz integral</item>
+    </string-array>
+
+    <string-array name="nombres_res">
+        <item>Carne de res a la plancha</item>
+        <item>Hamburguesa con vegetales</item>
+        <item>Filete de Res relleno de espárrago</item>
+        <item>Filete de Res con poro al horno</item>
+        <item>Filete de res con espárragos</item>
+        <item>Huaraches de nopal con carne</item>
+        <item>Arroz con carne</item>
+        <item>Extra: Hamburguesa de Tofu</item>
+    </string-array>
+
+    <string-array name="nombres_cerdo">
+        <item>Filete de cerdo salteado</item>
+        <item>Chuletas de cerdo con vegetales</item>
+        <item>Filete de cerdo salteado con vegetales</item>
+    </string-array>
+
+    <string-array name="nombres_pescado">
+        <item>Camarones estilos oriental</item>
+        <item>Camarones con salsa</item>
+        <item>Brochetas de marisco y pescado</item>
+        <item>Ensalada con camarones y piña</item>
+        <item>Crema de camaron</item>
+        <item>Salmon empapelado con esparragos</item>
+        <item>Capas de salmon ahumado</item>
+        <item>Salmon papillot con verduras</item>
+        <item>Salmon en salsa de mostaza</item>
+        <item>Salteado de salmon con arroz integral</item>
+        <item>Salmon con puerros</item>
+        <item>Salmon con arooz salvaje</item>
+        <item>Filete de pescado con salsa de alcaparras</item>
+        <item>Lomo de pescado huachinango con manzana</item>
+        <item>Lenguado rellenos de camarones</item>
+        <item>Lonjas de pescado a la parrill</item>
+        <item>Atun a la plancha</item>
+        <item>Atun con vegetales salteados</item>
+        <item>Medallones de atun con verdura</item>
+        <item>Atun en salsa con albahaca</item>
+        <item>Atun sellado</item>
+    </string-array>
+
+    <string-array name="nombres_pasta">
+        <item>Spaghetti con camaron</item>
+        <item>Sopa de pasta integral con albondigas</item>
+        <item>Tallarines integrales con carne</item>
+        <item>Pasta integral a la boloñesa</item>
+        <item>Macarrones con mariscos</item>
+        <item>Pasta integral con camarones o langostinos</item>
+        <item>Sopa de vegetales con pasta</item>
+    </string-array>
+
+    <string-array name="nombres_arroz">
+        <item>Arroz salvaje con salmon</item>
+        <item>Arroz integral con menta</item>
+        <item>Arroz integral al curry</item>
+        <item>Arroz integral con camaron</item>
+        <item>Arroz con carne</item>
+        <item>Arroz integral con pavo y verduras</item>
+        <item>Arroz integral con pollo</item>
+    </string-array>
+
+    <string-array name="nombres_bocadillos">
+        <item>Licuado de kale y perejil</item>
+        <item>Licuado de col rizada</item>
+        <item>Licuado de espinacas</item>
+        <item>Licuado de kale y moras</item>
+        <item>Licuado de zanahoria</item>
+        <item>Licuado de kiwi</item>
+        <item>Agua de frutos rojos con menta</item>
+        <item>Sopa fria de fresas</item>
+        <item>Berenjenas con vegetales</item>
+        <item>Brochetas de vegetales</item>
+        <item>Pastel de hongos</item>
+        <item>Calabacitas rellenas</item>
+        <item>Pimientos rellenos</item>
+        <item>Polenta de amaranto y hongos</item>
+        <item>Quinoa en hojas de acelga</item>
+        <item>Quinoa a la mexicana</item>
+        <item>Salteado de vegetales con tofu</item>
+    </string-array>
+
+    <string-array name="nombres_sopas">
+        <item>Sopa de pescado con quinoa</item>
+        <item>Sopa de camarones</item>
+        <item>Sopa de vegetales con pasta</item>
+        <item>Sopa de verduras</item>
+        <item>Sopa de vegetales</item>
+        <item>Sopa de zanahoria y genjibre</item>
+        <item>Sopa de nopales</item>
+        <item>Crema de vegetales</item>
+        <item>Crema de pescado calabacita y tomate</item>
+        <item>Crema de camaron</item>
     </string-array>
 
 </resources>
