@@ -5,12 +5,18 @@
     <string name="menu1">Compras</string>
     <string name="menu2">Inscribete</string>
     <string name="menu3">Como se Prepara</string>
-    <string name="texto_plato1">-Utiliza aceites saludables como el de oliva o canola, evita las grasas trans.</string>
-    <string name="texto_plato2">-Consume más variedad de vegetales. Las papas y las papas fritas no cuentan.</string>
-    <string name="texto_plato3">-Tu porción de fruta es importante. Evita las que son altas en azúcar.</string>
-    <string name="texto_plato4">-Toma ocho vasos de agua al día. Evita las bebidas con azúcar.</string>
-    <string name="texto_plato5">-Elige granos enteros como pasta y arroz integrales. Evita los refinados como arroz y pan blancos.</string>
-    <string name="texto_plato6">-Come proteína saludable como legumbre, aves y pescado. Limita las carnes rojas.</string>
+    <string name="titulo_plato1">¡¿Qué hay de los aceites?!</string>
+    <string name="texto_plato1">Utiliza aceites saludables como el de oliva o canola, evita las grasas trans.</string>
+    <string name="titulo_plato2">¡Atrévete a ser sano!</string>
+    <string name="texto_plato2">Consume más variedad de vegetales. Las papas y las papas fritas no cuentan.</string>
+    <string name="titulo_plato3">¡Cuida tu glúcosa!</string>
+    <string name="texto_plato3">Tu porción de fruta es importante. Evita las que son altas en azúcar.</string>
+    <string name="titulo_plato4">¡El agua es vida y juventud!</string>
+    <string name="texto_plato4">Toma ocho vasos de agua al día. Evita las bebidas con azúcar.</string>
+    <string name="titulo_plato5">¡Para sopas y guarniciones!</string>
+    <string name="texto_plato5">Elige granos enteros como pasta y arroz integrales. Evita los refinados como arroz y pan blancos.</string>
+    <string name="titulo_plato6">¡¿Y dónde están las proteínas?!</string>
+    <string name="texto_plato6">Come proteína saludable como legumbre, aves y pescado. Limita las carnes rojas.</string>
     <string name="menu4">Recetas</string>
     <string name="menu5">Testimonios</string>
     <string name="menu6">Videos</string>
@@ -18,23 +24,12 @@
     <string name="title_Como_Preparar">Como Preparar Vivri</string>
     <string name="video_como_preparar">Vieo Como Preparar tu Shake Me!</string>
     <string name="video_preguntas_frecuentes">Video Preguntas Frecuentes</string>
-    <string name="descripcionReto">Es una forma muy fácil y divertida de dar el pirmer paso hacia la mejor versión de ti, dándole nutrición escencial a tu cuerpo y mejorando tus decisiones alimenticias. Participar en un Reto es toda una experiencia transformacional que puedes compartir con tu familia y amigos y así formar una comunidad real y permanente de salud.</string>
+    <string name="descripcionReto">Es una forma muy fácil y divertida de dar el primer paso hacia la mejor versión de ti, dándole nutrición escencial a tu cuerpo y mejorando tus decisiones alimenticias. Participar en un Reto es toda una experiencia transformacional que puedes compartir con tu familia y amigos y así formar una comunidad real y permanente de salud.</string>
     <string name="info_cleanse">Encuentra tu equilibrio interno. CLEANSE ME!™ lo puedes tomar como “shot” (4 a 6 oz) o “agua fresca” (18 a 24 oz). Contiene los ingredientes de Fibersym™ y Fibergum™. También contiene ACTIValoe®, reconocido por el Consejo Internacional de la Sábila como la mejor sábila en el planeta.</string>
     <string name="info_power">Estimula tu mente y cuerpo de forma natural para rendir más. Power Me!™ contiene té verde, yerba mate y guaraná que combinados con vitaminas del Complejo B como B12 y B6, te hacen sentir hasta cuatro veces más energía que una taza de café y con la misma cantidad de cafeína. Además te aporta la misma cantidad del poderoso Antioxidante EGCG que una taza de té verde.</string>
-    <string name="info_shake">Shake Me!™ contiene 45 nutrientes esenciales, es un alimento en polvo de acuerdo a los estándares internacionales más altos. Está repleto de proteínas, vitaminas, extractos vegetales y otros ingredientes de primera calidad.</string>
+    <string name="info_shake">Shake Me!™ Contiene 45 nutrientes escenciales, es un alimento en polvo de acuerdo a los estándares internacionales más altos. Está repleto de proteínas, vitaminas, extractos vegetales y otros ingredientes de primera calidad.</string>
     <string name="title_Recetas"> Recetas</string>
 
-    <string-array name="tipos_recetas">
-        <item>Ensaladas</item>
-        <item>Pollo</item>
-        <item>Res</item>
-        <item>Cerdo</item>
-        <item>Pescado / Mariscos</item>
-        <item>Pastas</item>
-        <item>Arroz integral</item>
-        <item>Sopas</item>
-        <item>Bocadillos</item>
-    </string-array>
 
     <string-array name="nombres_ensaladas">
         <item>Ensalada de Coliflor</item>

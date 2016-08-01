@@ -16,6 +16,74 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="non.vivriapp.RecetasActivity">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ensaladas:"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lista_ensaladas"
+            android:paddingLeft="20dp"></ListView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pollo:"
+            android:paddingTop="16dp"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Res:"
+            android:paddingTop="16dp"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cerdo:"
+            android:paddingTop="16dp"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pescado / Mariscos:"
+            android:paddingTop="16dp"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pastas:"
+            android:paddingTop="16dp"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arroz integral:"
+            android:paddingTop="16dp"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sopas:"
+            android:paddingTop="16dp"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bocadillos:"
+            android:paddingTop="16dp"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"/>
+
 
         <Button
             android:layout_width="wrap_content"
