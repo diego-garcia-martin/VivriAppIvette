@@ -14,7 +14,8 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context="non.vivriapp.RecetasActivity">
+        tools:context="non.vivriapp.RecetasActivity"
+        android:weightSum="1">
 
         <TextView
             android:layout_width="match_parent"
@@ -24,9 +25,11 @@
             android:textColor="#FFFFFF"/>
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="580dp"
             android:id="@+id/lista_ensaladas"
-            android:paddingLeft="20dp"></ListView>
+            android:drawSelectorOnTop="false">
+
+        </ListView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -34,6 +37,13 @@
             android:paddingTop="16dp"
             android:textSize="24sp"
             android:textColor="#FFFFFF"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="580dp"
+            android:id="@+id/lista_pollo"
+            android:drawSelectorOnTop="false">
+
+        </ListView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -41,6 +51,13 @@
             android:paddingTop="16dp"
             android:textSize="24sp"
             android:textColor="#FFFFFF"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:id="@+id/lista_res"
+            android:drawSelectorOnTop="false">
+
+        </ListView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,6 +65,13 @@
             android:paddingTop="16dp"
             android:textSize="24sp"
             android:textColor="#FFFFFF"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/lista_cerdo"
+            android:drawSelectorOnTop="false">
+
+        </ListView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -55,6 +79,13 @@
             android:paddingTop="16dp"
             android:textSize="24sp"
             android:textColor="#FFFFFF"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="1250dp"
+            android:id="@+id/lista_pescado"
+            android:drawSelectorOnTop="false">
+
+        </ListView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -62,6 +93,13 @@
             android:paddingTop="16dp"
             android:textSize="24sp"
             android:textColor="#FFFFFF"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:id="@+id/lista_pastas"
+            android:drawSelectorOnTop="false">
+
+        </ListView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -69,6 +107,13 @@
             android:paddingTop="16dp"
             android:textSize="24sp"
             android:textColor="#FFFFFF"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:id="@+id/lista_arroz"
+            android:drawSelectorOnTop="false">
+
+        </ListView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -76,6 +121,13 @@
             android:paddingTop="16dp"
             android:textSize="24sp"
             android:textColor="#FFFFFF"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="580dp"
+            android:id="@+id/lista_sopas"
+            android:drawSelectorOnTop="false">
+
+        </ListView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -83,6 +135,13 @@
             android:paddingTop="16dp"
             android:textSize="24sp"
             android:textColor="#FFFFFF"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:id="@+id/lista_bocadillos"
+            android:drawSelectorOnTop="false">
+
+        </ListView>
 
 
         <Button
