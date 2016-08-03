@@ -29,6 +29,15 @@
     <string name="info_power">Estimula tu mente y cuerpo de forma natural para rendir más. Power Me!™ contiene té verde, yerba mate y guaraná que combinados con vitaminas del Complejo B como B12 y B6, te hacen sentir hasta cuatro veces más energía que una taza de café y con la misma cantidad de cafeína. Además te aporta la misma cantidad del poderoso Antioxidante EGCG que una taza de té verde.</string>
     <string name="info_shake">Shake Me!™ Contiene 45 nutrientes escenciales, es un alimento en polvo de acuerdo a los estándares internacionales más altos. Está repleto de proteínas, vitaminas, extractos vegetales y otros ingredientes de primera calidad.</string>
     <string name="title_Recetas"> Recetas</string>
+    <string name="shake_titulo">SHAKE ME!™</string>
+    <string name="shake_subtitulo">TU NUTRICIÓN ES ESENCIAL</string>
+    <string name="shake_texto">Shake Me!® contiene 45 nutrientes esenciales, es un alimento en polvo de acuerdo a los estándares internacionales más altos. Está repleto de proteínas, vitaminas, extractos vegetales y otros ingredientes de primera calidad.\n¡Contiene tan sólo 230 calorías por malteada!</string>
+    <string name="power_titulo">POWER ME!™</string>
+    <string name="power_subtitulo">TU FORTALEZA</string>
+    <string name="power_texto">Estimula tu mente y cuerpo de forma natural para rendir más. Power Me!™ contiene té verde, yerba mate y guaraná que combinados con vitaminas del Complejo B como B12 y B6, te hacen sentir hasta cuatro veces más energía que una taza de café y con la misma cantidad de cafeína. Además te aporta la misma cantidad del poderoso Antioxidante EGCG que una taza de té verde.\n¡Contiene sólo 15 calorías en sabor Naranja-Mango y 30 calorías en sabor Café con leche!</string>
+    <string name="cleanse_titulo">CLEANSE ME!™</string>
+    <string name="cleanse_subtitulo">TU EQUILIBRIO NATURAL</string>
+    <string name="cleanse_texto">Encuentra tu equilibrio interno. CLEANSE ME!™ lo puedes tomar como “shot” (4 a 6 oz) o “agua fresca” (18 a 24 oz). Contiene los ingredientes de Fibersym™ y Fibergum™. También contiene ACTIValoe®, reconocido por el Consejo Internacional de la Sábila como la mejor sábila en el planeta.\n¡Contiene tan sólo 10 calorías en sabor Naranja-Piña!</string>
 
 
     <string-array name="nombres_ensaladas">

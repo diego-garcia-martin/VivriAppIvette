@@ -4,18 +4,11 @@ import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Gravity;
-import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.LinearLayout;
-import android.widget.PopupWindow;
 
 public class ComoPreparar extends AppCompatActivity {
-    private PopupWindow popupWindow;
-    private LinearLayout layout;
-    private LayoutInflater layoutInflater;
+    public final static String EXTRA_MESSAGE2 = "non.vivriapp.EXTRA_MESSAGE2";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,12 +26,21 @@ public class ComoPreparar extends AppCompatActivity {
         startActivity(intent);
     }
     public void descripcionShake(View view){
-
+        Intent intent = new Intent(this, Como_Preparar2.class);
+        String message = "shake";
+        intent.putExtra(EXTRA_MESSAGE2, message);
+        startActivity(intent);
     }
     public void descripcionPower(View view){
-
+        Intent intent = new Intent(this, Como_Preparar2.class);
+        String message = "power";
+        intent.putExtra(EXTRA_MESSAGE2, message);
+        startActivity(intent);
     }
     public void descripcionCleanse(View view){
-
+        Intent intent = new Intent(this, Como_Preparar2.class);
+        String message = "cleanse";
+        intent.putExtra(EXTRA_MESSAGE2, message);
+        startActivity(intent);
     }
 }

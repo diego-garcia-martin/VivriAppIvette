@@ -20,7 +20,7 @@
             android:weightSum="1">
 
             <ImageButton
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
                 android:paddingBottom="5dp"
@@ -31,13 +31,13 @@
                 android:scaleType="fitCenter"
                 android:id="@+id/btn_compras"
                 android:src="@drawable/comprasicono"
-                android:layout_weight="0.5"
                 android:onClick="paisCompras"
-                android:background="#2b1073" />
+                android:background="#2b1073"
+                android:layout_weight="0.5" />
 
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:paddingTop="5dp"
                 android:paddingBottom="5dp"
                 android:paddingLeft="5dp"
