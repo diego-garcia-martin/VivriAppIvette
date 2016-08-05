@@ -69,60 +69,60 @@ public class RecetasActivity extends AppCompatActivity {
                 switch (i){
                     case 0:
                          intent=new Intent(getApplicationContext(), Recetas02.class);
-                        receta="ensalda1";
+                        receta="ensalada1";
                         intent.putExtra(EXTRA_RECETA, receta);
                         startActivity(intent);
                         break;
                     case 1: intent=new Intent(getApplicationContext(), Recetas02.class);
-                        receta="ensalda2";
+                        receta="ensalada2";
                         intent.putExtra(EXTRA_RECETA, receta);
                         startActivity(intent);
                         break;
                     case 2:
                          intent=new Intent(getApplicationContext(), Recetas02.class);
-                        receta="ensalda3";
+                        receta="ensalada3";
                         intent.putExtra(EXTRA_RECETA, receta);
                         startActivity(intent);
                         break;
                     case 3:
                          intent=new Intent(getApplicationContext(), Recetas02.class);
-                        receta="ensalda4";
+                        receta="ensalada4";
                         intent.putExtra(EXTRA_RECETA, receta);
                         startActivity(intent);
                         break;
                     case 4:
                          intent=new Intent(getApplicationContext(), Recetas02.class);
-                        receta="ensalda5";
+                        receta="ensalada5";
                         intent.putExtra(EXTRA_RECETA, receta);
                         startActivity(intent);
                         break;
                     case 5:
                          intent=new Intent(getApplicationContext(), Recetas02.class);
-                        receta="ensalda6";
+                        receta="ensalada6";
                         intent.putExtra(EXTRA_RECETA, receta);
                         startActivity(intent);
                         break;
                     case 6:
                          intent=new Intent(getApplicationContext(), Recetas02.class);
-                        receta="ensalda7";
+                        receta="ensalada7";
                         intent.putExtra(EXTRA_RECETA, receta);
                         startActivity(intent);
                         break;
                     case 7:
                          intent=new Intent(getApplicationContext(), Recetas02.class);
-                        receta="ensalda8";
+                        receta="ensalada8";
                         intent.putExtra(EXTRA_RECETA, receta);
                         startActivity(intent);
                         break;
                     case 8:
                          intent=new Intent(getApplicationContext(), Recetas02.class);
-                        receta="ensalda9";
+                        receta="ensalada9";
                         intent.putExtra(EXTRA_RECETA, receta);
                         startActivity(intent);
                         break;
                     case 9:
                          intent=new Intent(getApplicationContext(), Recetas02.class);
-                        receta="ensalda10";
+                        receta="ensalada10";
                         intent.putExtra(EXTRA_RECETA, receta);
                         startActivity(intent);
                         break;

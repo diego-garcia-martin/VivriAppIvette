@@ -16,5 +16,51 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="non.vivriapp.Recetas02">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_titulo_receta"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ingredientes"
+            android:id="@+id/textView4"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="8dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_ingredientes"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/preparacion"
+            android:id="@+id/textView29"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="8dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_preparacion"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/final_receta"
+            android:id="@+id/textView31"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"/>
     </LinearLayout>
 </ScrollView>
