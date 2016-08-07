@@ -60,7 +60,7 @@
                 android:onClick="video_Reto"
                 android:paddingLeft="16dp"
                 android:paddingStart="16dp"
-                android:text="CONOCE EL RETO VIVRI Ely Orozco"
+                android:text="RETO VIVRI™ presentado por Miriam Ayala "
                 android:textColor="#ffffff"
                 android:textSize="18sp" />
 

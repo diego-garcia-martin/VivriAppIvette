@@ -15,7 +15,7 @@ public class Reto_Vivri extends AppCompatActivity {
     }
 
     public void video_Reto(View view){
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=USiZ-82VK_E"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=fkja0mAf8P4"));
         startActivity(intent);
     }
     public void abrirTips(View view){
