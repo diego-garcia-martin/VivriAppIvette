@@ -400,7 +400,7 @@ public class RecetasActivity extends AppCompatActivity {
                         break;
                     case 18:
                          intent=new Intent(getApplicationContext(), Recetas02.class);
-                        receta="pescado9";
+                        receta="pescado19";
                         intent.putExtra(EXTRA_RECETA, receta);
                         startActivity(intent);
                         break;
@@ -515,12 +515,7 @@ public class RecetasActivity extends AppCompatActivity {
                         intent.putExtra(EXTRA_RECETA, receta);
                         startActivity(intent);
                         break;
-                    case 6:
-                        intent = new Intent(getApplicationContext(), Recetas02.class);
-                        receta = "arroz7";
-                        intent.putExtra(EXTRA_RECETA, receta);
-                        startActivity(intent);
-                        break;
+
                     default:
                         break;
                 }
@@ -584,12 +579,7 @@ public class RecetasActivity extends AppCompatActivity {
                         intent.putExtra(EXTRA_RECETA, receta);
                         startActivity(intent);
                         break;
-                    case 9:
-                        intent=new Intent(getApplicationContext(), Recetas02.class);
-                        receta="sopa10";
-                        intent.putExtra(EXTRA_RECETA, receta);
-                        startActivity(intent);
-                        break;
+
                     default:
                         break;
                 }
@@ -696,12 +686,7 @@ public class RecetasActivity extends AppCompatActivity {
                         intent.putExtra(EXTRA_RECETA, receta);
                         startActivity(intent);
                         break;
-                    case 16:
-                        intent=new Intent(getApplicationContext(), Recetas02.class);
-                        receta="bocadillo17";
-                        intent.putExtra(EXTRA_RECETA, receta);
-                        startActivity(intent);
-                        break;
+
                     default:
                         break;
                 }

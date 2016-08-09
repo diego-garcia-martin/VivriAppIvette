@@ -109,7 +109,7 @@
             android:textColor="#FFFFFF"/>
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="450dp"
+            android:layout_height="380dp"
             android:id="@+id/lista_arroz"
             android:drawSelectorOnTop="false">
 
@@ -123,7 +123,7 @@
             android:textColor="#FFFFFF"/>
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="580dp"
+            android:layout_height="530dp"
             android:id="@+id/lista_sopas"
             android:drawSelectorOnTop="false">
 
@@ -137,7 +137,7 @@
             android:textColor="#FFFFFF"/>
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="1000dp"
+            android:layout_height="950dp"
             android:id="@+id/lista_bocadillos"
             android:drawSelectorOnTop="false">
 

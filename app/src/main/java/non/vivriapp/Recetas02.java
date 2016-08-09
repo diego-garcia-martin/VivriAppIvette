@@ -254,6 +254,226 @@ public class Recetas02 extends AppCompatActivity {
                 ingredientes.setText(R.string.pescado15_ingredientes);
                 preparacion.setText(R.string.pescado15_preparacion);
                 break;
+            case "pescado16":
+                titulo.setText(R.string.pescado16_titulo);
+                ingredientes.setText(R.string.pescado16_ingredientes);
+                preparacion.setText(R.string.pescado16_preparacion);
+                break;
+            case "pescado17":
+                titulo.setText(R.string.pescado17_titulo);
+                ingredientes.setText(R.string.pescado17_ingredientes);
+                preparacion.setText(R.string.pescado17_preparacion);
+                break;
+            case "pescado18":
+                titulo.setText(R.string.pescado18_titulo);
+                ingredientes.setText(R.string.pescado18_ingredientes);
+                preparacion.setText(R.string.pescado18_preparacion);
+                break;
+            case "pescado19":
+                titulo.setText(R.string.pescado19_titulo);
+                ingredientes.setText(R.string.pescado19_ingredientes);
+                preparacion.setText(R.string.pescado19_preparacion);
+                break;
+            case "pescado20":
+                titulo.setText(R.string.pescado20_titulo);
+                ingredientes.setText(R.string.pescado20_ingredientes);
+                preparacion.setText(R.string.pescado20_preparacion);
+                break;
+            case "pescado21":
+                titulo.setText(R.string.pescado21_titulo);
+                ingredientes.setText(R.string.pescado21_ingredientes);
+                preparacion.setText(R.string.pescado21_preparacion);
+                break;
+            case "pasta1":
+                titulo.setText(R.string.pasta01_titulo);
+                ingredientes.setText(R.string.pasta01_ingredientes);
+                preparacion.setText(R.string.pasta01_preparacion);
+                break;
+            case "pasta2":
+                titulo.setText(R.string.pasta02_titulo);
+                ingredientes.setText(R.string.pasta02_ingredientes);
+                preparacion.setText(R.string.pasta02_preparacion);
+                break;
+            case "pasta3":
+                titulo.setText(R.string.pasta03_titulo);
+                ingredientes.setText(R.string.pasta03_ingredientes);
+                preparacion.setText(R.string.pasta03_preparacion);
+                break;
+            case "pasta4":
+                titulo.setText(R.string.pasta04_titulo);
+                ingredientes.setText(R.string.pasta04_ingredientes);
+                preparacion.setText(R.string.pasta04_preparacion);
+                break;
+            case "pasta5":
+                titulo.setText(R.string.pasta05_titulo);
+                ingredientes.setText(R.string.pasta05_ingredientes);
+                preparacion.setText(R.string.pasta05_preparacion);
+                break;
+            case "pasta6":
+                titulo.setText(R.string.pasta06_titulo);
+                ingredientes.setText(R.string.pasta06_ingredientes);
+                preparacion.setText(R.string.pasta06_preparacion);
+                break;
+            case "pasta7":
+                titulo.setText(R.string.pasta07_titulo);
+                ingredientes.setText(R.string.pasta07_ingredientes);
+                preparacion.setText(R.string.pasta07_preparacion);
+                break;
+            case "arroz1":
+                titulo.setText(R.string.arroz01_titulo);
+                ingredientes.setText(R.string.arroz01_ingredientes);
+                preparacion.setText(R.string.arroz01_preparacion);
+                break;
+            case "arroz2":
+                titulo.setText(R.string.arroz02_titulo);
+                ingredientes.setText(R.string.arroz02_ingredientes);
+                preparacion.setText(R.string.arroz02_preparacion);
+                break;
+            case "arroz3":
+                titulo.setText(R.string.arroz03_titulo);
+                ingredientes.setText(R.string.arroz03_ingredientes);
+                preparacion.setText(R.string.arroz03_preparacion);
+                break;
+            case "arroz4":
+                titulo.setText(R.string.arroz04_titulo);
+                ingredientes.setText(R.string.arroz04_ingredientes);
+                preparacion.setText(R.string.arroz04_preparacion);
+                break;
+            case "arroz5":
+                titulo.setText(R.string.arroz05_titulo);
+                ingredientes.setText(R.string.arroz05_ingredientes);
+                preparacion.setText(R.string.arroz05_preparacion);
+                break;
+            case "arroz6":
+                titulo.setText(R.string.arroz06_titulo);
+                ingredientes.setText(R.string.arroz06_ingredientes);
+                preparacion.setText(R.string.arroz06_preparacion);
+                break;
+            case "bocadillo1":
+                titulo.setText(R.string.bocadillo01_titulo);
+                ingredientes.setText(R.string.bocadillo01_ingredientes);
+                preparacion.setText(R.string.bocadillo01_preparacion);
+                break;
+            case "bocadillo2":
+                titulo.setText(R.string.bocadillo02_titulo);
+                ingredientes.setText(R.string.bocadillo02_ingredientes);
+                preparacion.setText(R.string.bocadillo02_preparacion);
+                break;
+            case "bocadillo3":
+                titulo.setText(R.string.bocadillo03_titulo);
+                ingredientes.setText(R.string.bocadillo03_ingredientes);
+                preparacion.setText(R.string.bocadillo03_preparacion);
+                break;
+            case "bocadillo4":
+                titulo.setText(R.string.bocadillo04_titulo);
+                ingredientes.setText(R.string.bocadillo04_ingredientes);
+                preparacion.setText(R.string.bocadillo04_preparacion);
+                break;
+            case "bocadillo5":
+                titulo.setText(R.string.bocadillo05_titulo);
+                ingredientes.setText(R.string.bocadillo05_ingredientes);
+                preparacion.setText(R.string.bocadillo05_preparacion);
+                break;
+            case "bocadillo6":
+                titulo.setText(R.string.bocadillo06_titulo);
+                ingredientes.setText(R.string.bocadillo06_ingredientes);
+                preparacion.setText(R.string.bocadillo06_preparacion);
+                break;
+            case "bocadillo7":
+                titulo.setText(R.string.bocadillo07_titulo);
+                ingredientes.setText(R.string.bocadillo07_ingredientes);
+                preparacion.setText(R.string.bocadillo07_preparacion);
+                break;
+            case "bocadillo8":
+                titulo.setText(R.string.bocadillo08_titulo);
+                ingredientes.setText(R.string.bocadillo08_ingredientes);
+                preparacion.setText(R.string.bocadillo08_preparacion);
+                break;
+            case "bocadillo9":
+                titulo.setText(R.string.bocadillo09_titulo);
+                ingredientes.setText(R.string.bocadillo09_ingredientes);
+                preparacion.setText(R.string.bocadillo09_preparacion);
+                break;
+            case "bocadillo10":
+                titulo.setText(R.string.bocadillo10_titulo);
+                ingredientes.setText(R.string.bocadillo10_ingredientes);
+                preparacion.setText(R.string.bocadillo10_preparacion);
+                break;
+            case "bocadillo11":
+                titulo.setText(R.string.bocadillo11_titulo);
+                ingredientes.setText(R.string.bocadillo11_ingredientes);
+                preparacion.setText(R.string.bocadillo11_preparacion);
+                break;
+            case "bocadillo12":
+                titulo.setText(R.string.bocadillo12_titulo);
+                ingredientes.setText(R.string.bocadillo12_ingredientes);
+                preparacion.setText(R.string.bocadillo12_preparacion);
+                break;
+            case "bocadillo13":
+                titulo.setText(R.string.bocadillo13_titulo);
+                ingredientes.setText(R.string.bocadillo13_ingredientes);
+                preparacion.setText(R.string.bocadillo13_preparacion);
+                break;
+            case "bocadillo14":
+                titulo.setText(R.string.bocadillo14_titulo);
+                ingredientes.setText(R.string.bocadillo14_ingredientes);
+                preparacion.setText(R.string.bocadillo14_preparacion);
+                break;
+            case "bocadillo15":
+                titulo.setText(R.string.bocadillo15_titulo);
+                ingredientes.setText(R.string.bocadillo15_ingredientes);
+                preparacion.setText(R.string.bocadillo15_preparacion);
+                break;
+            case "bocadillo16":
+                titulo.setText(R.string.bocadillo16_titulo);
+                ingredientes.setText(R.string.bocadillo16_ingredientes);
+                preparacion.setText(R.string.bocadillo16_preparacion);
+                break;
+            case "sopa1":
+                titulo.setText(R.string.sopa01_titulo);
+                ingredientes.setText(R.string.sopa01_ingredientes);
+                preparacion.setText(R.string.sopa01_preparacion);
+                break;
+            case "sopa2":
+                titulo.setText(R.string.sopa02_titulo);
+                ingredientes.setText(R.string.sopa02_ingredientes);
+                preparacion.setText(R.string.sopa02_preparacion);
+                break;
+            case "sopa3":
+                titulo.setText(R.string.sopa03_titulo);
+                ingredientes.setText(R.string.sopa03_ingredientes);
+                preparacion.setText(R.string.sopa03_preparacion);
+                break;
+            case "sopa4":
+                titulo.setText(R.string.sopa04_titulo);
+                ingredientes.setText(R.string.sopa04_ingredientes);
+                preparacion.setText(R.string.sopa04_preparacion);
+                break;
+            case "sopa5":
+                titulo.setText(R.string.sopa05_titulo);
+                ingredientes.setText(R.string.sopa05_ingredientes);
+                preparacion.setText(R.string.sopa05_preparacion);
+                break;
+            case "sopa6":
+                titulo.setText(R.string.sopa06_titulo);
+                ingredientes.setText(R.string.sopa06_ingredientes);
+                preparacion.setText(R.string.sopa06_preparacion);
+                break;
+            case "sopa7":
+                titulo.setText(R.string.sopa07_titulo);
+                ingredientes.setText(R.string.sopa07_ingredientes);
+                preparacion.setText(R.string.sopa07_preparacion);
+                break;
+            case "sopa8":
+                titulo.setText(R.string.sopa08_titulo);
+                ingredientes.setText(R.string.sopa08_ingredientes);
+                preparacion.setText(R.string.sopa08_preparacion);
+                break;
+            case "sopa9":
+                titulo.setText(R.string.sopa09_titulo);
+                ingredientes.setText(R.string.sopa09_ingredientes);
+                preparacion.setText(R.string.sopa09_preparacion);
+                break;
             default:
                 break;
         }
